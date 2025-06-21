@@ -1,2 +1,76 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+/*q1*/
+.q1--horizontality .margin-white1 {
+    background: #fff;
+    width: 200px;
+    height: 20;
+    text-align: center;
+}
+.q1--horizontality .margin-white1 p{
+    padding: 10px;
+    background: #a4b3e9;
+    margin: 20px;
+    display: inline-block;
+}
+
+
+.q1--horizontality .margin-white2 {
+    background: #fff;
+    width: 200px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.q1--horizontality .margin-white2 p{
+    width: 90px;
+    padding: 10px;
+    font-size: 16px;
+    margin: auto;
+    background: #a4b3e9;
+}
+
+.q1--perimeter {
+    display: table;
+    text-align: center;
+}
+.q1--perimeter .margin-white3 {
+    width: 10px;
+    vertical-align: middle;
+    display:table-cell;
+}
+.q1--perimeter .margin-white3 p{
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+
+.q1--perimeter .margin-white4 {
+    width: 250px;
+    height: 150px;
+    background-color: #a4e4f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.q1--perimeter .margin-white4 p{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.q1--position {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container {
+    position: relative;
+}
+.container p {
+    background: #a4b3e9;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
