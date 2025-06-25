@@ -1,1 +1,61 @@
 @charset "UTF-8";
+
+
+.bar-a {
+    display: table;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.red {
+    background: #ff7b7b;
+    width: 300px;
+    padding: 20px;
+    display: table-cell;
+}
+
+.blue {
+    background: #7b86ff;
+    padding: 20px;
+    display: table-cell;
+}
+
+.yellow {
+    background: #fff27b;
+    width: 300px;
+    padding: 20px;
+    display: table-cell;
+}
+
+.bar-b {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.green {
+    background: #7bff91;
+    padding: 20px ;
+    display: table-cell;
+}
+
+.pink {
+    background: #ff7be2;
+    width: 400px;
+    padding: 20px 0;
+    display: table-cell;
+}
+
+.orange {
+    background: #ffc67b;
+    width: 400px;
+    padding: 20px 0;
+    display: table-cell;
+}
+
+.sky {
+    background: #7bf2ff;
+    padding: 20px ;
+    display: table-cell;
+}
